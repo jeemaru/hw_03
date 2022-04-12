@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{font-family: 맑은고딕; font-size: 17px;}
+
+h2{font-size: 25px;}
+ul{list-style-type: square;}
+ol{list-style-type: none;}
+h3{font-size: 20px;}
+.h1-font{font-family: 궁서체;
+		 font-size: 30xp;
+		 letter-spacing: 15px;}
+.h2-font{color: #00ff00;
+		 text-decoration: underline;}
+.h3-font{text-decoration: underline;}
+
+div{background-color: #d9d9d9;}
+div p{text-indent: 30px;}
+
+span{color: #0000ff;}
+.s-1{color: #0000ff;
+	 font-style: italic;
+	 font-weight: bold;}
+.s-2{color: #ff0000;
+	 font-style: italic;
+	 font-weight: bold;}
+.s-3{color: #ff0000;
+	 font-weight: bold;}
+.s-4{color: #00ff00;
+	 font-weight: bold;}
+.s-5{color: #0000ff;
+	 font-style: italic;}
+	
+thead{background-color: #c8ebfa;}
+.t-2:hover{background-color: #edd3ed;}
+.t-3{text-align: right;}
+.t-3:after{content: "(MB/초)";}
+.t-3:before{content: "약";}
+
+table>tbody a:link {color: #000000; text-decoration: none;}/* 방문전 */
+table>tbody a:visited {color: #000000;}/* 방문후 변형 */
+table>tbody a:hover {color: #0000ff; text-decoration: underline;}/* 커서올리면반응 */
+table>tbody a:active {color: #0000ff; text-decoration: underline;}/* 클릭중(누루고있음) */
+	
+
+
